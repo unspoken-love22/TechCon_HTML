@@ -1,1 +1,65 @@
-"" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | TechCon 2024</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <article>
+            <h2>Get in Touch</h2>
+            <section>
+                <h3>Contact Information</h3>
+                <p>Email: <a href="mailto:techcon2024@gmail.com">contact@techcon2024.com</a></p>
+                <p>Follow us on social media:</p>
+                <ul>
+                    <li><a href="https://twitter.com/techcon2024" target="_blank">Twitter</a></li>
+                    <li><a href="https://facebook.com/techcon2024" target="_blank">Facebook</a></li>
+                    <li><a href="https://instagram.com/techcon2024" target="_blank">Instagram</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Conference Location</h3>
+                <p>Find us at the TechCon 2024 venue:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=https://www.google.com/maps/place/Techcon/@33.8061729,-122.6420073,7z/data=!4m10!1m2!2m1!1stechcon+google+map!3m6!1s0x80dd28c57b3094d5:0x7dfbc1f9026e92c9!8m2!3d33.8061729!4d-118.0277495!15sChJ0ZWNoY29uIGdvb2dsZSBtYXAiA4gBAZIBEGNvcnBvcmF0ZV9vZmZpY2XgAQA!16s%2Fg%2F1s04g41b_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+            </section>
+
+            <section>
+                <h3>Contact Us</h3>
+                <form action="submit_contact_form.php" method="POST">
+                    <!-- Name Field -->
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <!-- Email Field -->
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <!-- Message Field -->
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <br
